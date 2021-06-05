@@ -31,5 +31,6 @@
  </dependency>
 ```
 
-![img](https://img2018.cnblogs.com/blog/1642600/201903/1642600-20190325152111154-792892722.png)
+##### spring-context-indexer简介
 
+项目编译完成时就会就会生成 `META-INF/spring.components` 文件到 jar 包中，从运行时扫描改成编译期间，大大提高了启动速度，类似的有 `Lombok`， `spring-boot-configuration-processor` 。
