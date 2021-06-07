@@ -7,6 +7,7 @@
 | JDK        | 8              |
 | Springboot | 2.3.11.RELEASE |
 | swagger    | 3.0.0          |
+| knife4j    | 3.0.2          |
 
 ##### 引入swagger
 
