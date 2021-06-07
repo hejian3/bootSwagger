@@ -18,6 +18,31 @@
 </dependency>
 ```
 
+访问文档：http://localhost:8080/swagger-ui/
+
+##### 禁用swagger
+
+```yaml
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
+```
+
+
+
+##### 引入knife4j（可以生成离线文档）
+
+```xml
+<dependency>
+    <groupId>com.github.xiaoymin</groupId>
+    <artifactId>knife4j-spring-boot-starter</artifactId>
+    <version>3.0.2</version>
+</dependency>
+```
+
+访问文档：http://localhost:8080/doc.htm
+
 ##### 注意事项
 
 不要引入spring-context-indexer,官方已认定为BUG
