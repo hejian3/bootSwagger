@@ -3,3 +3,8 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
